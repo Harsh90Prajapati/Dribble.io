@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dribbl.ai — React Clone
 
 A React + Vite + Tailwind rebuild of the [dribbl-ai.lovable.app](https://dribbl-ai.lovable.app/) landing page: dark, editorial agency site with an animated hero, services grid, portfolio, process timeline, testimonials, FAQ accordion, and a contact form.
@@ -49,3 +50,6 @@ Any static host works (Vercel, Netlify, GitHub Pages, Cloudflare Pages). For Git
 ## License
 
 Use it however you like — this is a personal project starter, not a redistribution of the original site's assets or code.
+=======
+# Dribble.io
+>>>>>>> fcb391a11aef0d68287cfd2976ff224763bb4860
