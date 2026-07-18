@@ -62,13 +62,13 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a
+          {/* <a
             href={nav.cta.href}
             onClick={() => setOpen(false)}
             className="btn-primary w-full mt-4 text-sm sm:hidden"
           >
             {nav.cta.label}
-          </a>
+          </a> */}
         </div>
       )}
     </header>
