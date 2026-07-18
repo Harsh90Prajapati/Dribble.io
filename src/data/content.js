@@ -16,7 +16,7 @@ export const hero = {
   eyebrow: 'Creative agency · Est. 2024',
   titleLines: ["Websites that", "don't just look good."],
   paragraph:
-    'We craft cinematic, AI-enhanced digital experiences for ambitious brands in architecture, luxury interiors, real estate and SaaS — engineered to generate real business.',
+    'We craft cinematic, AI-enhanced digital experiences for ambitious brands in architecture, luxury interiors, real estate and SaaS engineered to generate real business.',
   primaryCta: { label: 'Book a strategy call', href: '#contact' },
   secondaryCta: { label: 'See selected work', href: '#work' },
   stats: [
@@ -36,7 +36,7 @@ export const logos = [
 export const services = {
   eyebrow: 'Services',
   title: 'Studio-grade capabilities, end to end.',
-  subtitle: 'One senior team covering the entire lifecycle — strategy, design, engineering, AI and growth.',
+  subtitle: 'One senior team covering the entire lifecycle strategy, design, engineering, AI and growth.',
   items: [
     { n: '01', title: 'Website Design', desc: 'Editorial, cinematic interfaces that command attention.' },
     { n: '02', title: 'Website Development', desc: 'Framer-grade craft, engineered for performance.' },
@@ -93,7 +93,7 @@ export const process = {
     { n: '05', title: 'Development', desc: 'Performant builds with beautiful code under the hood.' },
     { n: '06', title: 'Testing', desc: 'Accessibility, speed, browsers, edge cases.' },
     { n: '07', title: 'Launch', desc: 'Smooth cutover, monitoring, launch storytelling.' },
-    { n: '08', title: 'Growth', desc: "SEO, CRO, iteration — a partner, not a vendor." },
+    { n: '08', title: 'Growth', desc: "SEO, CRO, iteration a partner, not a vendor." },
   ],
 }
 
@@ -114,12 +114,12 @@ export const testimonials = {
   title: 'Kind words from world-class teams.',
   items: [
     {
-      quote: "Dribbl rebuilt our brand and site in six weeks. Enquiries tripled in the first month. It genuinely feels like a $2M architecture studio site — and it converts like one.",
+      quote: "Dribbl rebuilt our brand and site in six weeks. Enquiries tripled in the first month. It genuinely feels like a $2M architecture studio site and it converts like one.",
       name: 'Elena Vasquez',
       role: 'Founder, Vasquez Interiors',
     },
     {
-      quote: 'The most talented team we\'ve hired. Design, engineering and AI — one senior group, no handoffs. Our sales pipeline hasn\'t been this healthy in years.',
+      quote: 'The most talented team we\'ve hired. Design, engineering and AI one senior group, no handoffs. Our sales pipeline hasn\'t been this healthy in years.',
       name: 'Marcus Bell',
       role: 'CEO, Atlas Residences',
     },
@@ -138,7 +138,7 @@ export const faq = {
     { q: 'How long does a typical project take?', a: 'Landing pages ship in 2-3 weeks. Full brand + site builds run 4-8 weeks depending on scope.' },
     { q: 'Do you work with existing brands?', a: 'Absolutely. We evolve existing identities and can rebuild from the ground up when needed.' },
     { q: 'What does a project cost?', a: 'Engagements typically range from $12k for focused landing pages to $60k+ for full site + brand + AI systems.' },
-    { q: 'Do you handle SEO and ongoing growth?', a: 'Yes — SEO is baked into every build, and we offer ongoing CRO, content and AI automations post-launch.' },
+    { q: 'Do you handle SEO and ongoing growth?', a: 'Yes SEO is baked into every build, and we offer ongoing CRO, content and AI automations post-launch.' },
     { q: 'Can you integrate with our stack?', a: 'Framer, Webflow, Next.js, TanStack, headless CMSs, Supabase, Stripe, HubSpot — we ship where you already live.' },
     { q: 'Do you take on non-English brands?', a: 'We work with clients globally. Multilingual, localized and RTL builds are all in-scope.' },
   ],
@@ -150,7 +150,7 @@ export const contact = {
   subtitle: "Tell us where you want to be in 12 months. We'll ship the digital engine to get you there.",
   email: 'hello@dribbl.ai',
   phone: '+1 (415) 555 · 0142',
-  locations: 'New York · Lisbon · Remote',
+  locations: 'India',
   projectTypes: ['Website', 'Redesign', 'Landing page', 'Branding', 'AI systems'],
   submitLabel: 'Send the brief',
 }
