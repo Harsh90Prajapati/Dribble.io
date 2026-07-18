@@ -68,7 +68,7 @@ export const work = {
 }
 
 export const whyUs = {
-  eyebrow: 'Why Dribbl.ai',
+  eyebrow: 'Why dribbl.io',
   title: 'Design meets engineering meets AI.',
   subtitle: 'We combine premium craft with the systems and intelligence needed to turn a website into a growth engine.',
   items: [
