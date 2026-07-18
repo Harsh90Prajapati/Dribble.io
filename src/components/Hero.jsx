@@ -35,7 +35,7 @@ export default function Hero() {
           <p className="max-w-md text-sm sm:text-base leading-relaxed !text-white/50">
             We craft cinematic, AI-enhanced digital experiences for ambitious
             brands in architecture, luxury interiors, real estate and SaaS
-            — engineered to generate real business.
+            engineered to generate real business.
           </p>
 
           {/* CTAs */}

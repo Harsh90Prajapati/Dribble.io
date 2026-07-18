@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ImageTrust from './components/imagetrust'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <ImageTrust/>
         <LogosMarquee />
         <Services />
         <Work />
