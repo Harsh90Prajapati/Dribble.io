@@ -32,7 +32,7 @@ export default function Hero() {
         {/* paragraph + CTAs row */}
         <div className="mt-8 sm:mt-10 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8">
           {/* paragraph */}
-          <p className="max-w-md text-sm sm:text-base leading-relaxed text-white/50">
+          <p className="max-w-md text-sm sm:text-base leading-relaxed !text-white/50">
             We craft cinematic, AI-enhanced digital experiences for ambitious
             brands in architecture, luxury interiors, real estate and SaaS
             — engineered to generate real business.
