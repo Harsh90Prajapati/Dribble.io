@@ -1,3 +1,5 @@
+import logo from "../assets/Dribbl.io-logo.png"
+
 export default function ImageTrust() {
   return (
     <section className="relative overflow-hidden bg-[#0a0806] py-14 sm:py-20 md:py-24">
@@ -9,7 +11,7 @@ export default function ImageTrust() {
         <div className="relative w-full overflow-hidden rounded-[28px] sm:rounded-[32px] border border-white/10 aspect-[4/5] sm:aspect-[16/10] md:aspect-[16/8]">
           {/* background visual — swap the src for your real asset */}
           <img
-            src="/images/trust-visual.jpg"
+            src={logo}
             alt=""
             aria-hidden="true"
             className="absolute inset-0 h-full w-full object-cover"
