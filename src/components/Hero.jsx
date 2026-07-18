@@ -30,9 +30,9 @@ export default function Hero() {
         </h1>
 
         {/* paragraph */}
-        <p className="mt-6 max-w-md text-sm sm:text-base leading-relaxed text-white/45">
+        <p className="mt-6 max-w-md text-sm sm:text-base leading-relaxed text-white">
           We craft cinematic, AI-enhanced digital experiences for ambitious
-          brands in architecture, luxury interiors, real estate and SaaS —
+          brands in architecture, luxury interiors, real estate and SaaS
           engineered to generate real business.
         </p>
 
