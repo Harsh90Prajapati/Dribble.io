@@ -35,9 +35,9 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* <a href={nav.cta.href} className="hidden md:inline-flex btn-primary !px-5 !py-2.5 text-sm">
+        <a href={nav.cta.href} className="hidden md:inline-flex btn-primary !px-5 !py-2.5 text-sm">
           {nav.cta.label}
-        </a> */}
+        </a>
 
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
@@ -62,13 +62,13 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          {/* <a
+          <a
             href={nav.cta.href}
             onClick={() => setOpen(false)}
-            className="btn-primary w-full mt-4 text-sm sm:hidden"
+            className="btn-primary w-full mt-4 text-xs sm:hidden"
           >
             {nav.cta.label}
-          </a> */}
+          </a>
         </div>
       )}
     </header>
