@@ -1,7 +1,7 @@
 // All copy lives here so it's easy to swap without touching component markup.
 
 export const nav = {
-  brand: 'Dribbl.ai',
+  brand: 'Dribbl.io',
   links: [
     { label: 'Services', href: '#services' },
     { label: 'Work', href: '#work' },
@@ -156,7 +156,7 @@ export const contact = {
 }
 
 export const footer = {
-  brand: 'Dribbl.ai',
+  brand: 'Dribbl.io',
   tagline: 'A premium creative agency for ambitious brands. Design, engineering and AI under one roof.',
   subscribeLabel: 'Subscribe',
   columns: [
