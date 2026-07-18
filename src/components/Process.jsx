@@ -92,8 +92,12 @@ export default function Process() {
   const rows = chunk(process.steps, 4)
 
   return (
-    <section id="process" className="section bg-[#0a0806] py-24 md:py-32">
-      <div className="wrap mx-auto max-w-6xl px-6 sm:px-10 lg:px-12">
+    <section id="process" className="relative overflow-hidden bg-[#0a0806] py-24 md:py-32">
+      {/* warm gradient bleeding in from the top-left, matching the rest of the page */}
+      <div className="pointer-events-none absolute -top-32 -left-32 h-[520px] w-[520px] rounded-full bg-[#c9600f]/20 blur-[150px]" />
+      <div className="pointer-events-none absolute top-1/2 right-0 h-[400px] w-[400px] rounded-full bg-[#7a1f12]/15 blur-[150px]" />
+
+      <div className="wrap relative mx-auto max-w-6xl px-6 sm:px-10 lg:px-12">
         <div
           ref={headerRef}
           className={`max-w-xl transition-all duration-700 ease-out ${
