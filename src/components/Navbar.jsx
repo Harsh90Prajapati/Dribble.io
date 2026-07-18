@@ -29,7 +29,7 @@ export default function Navbar() {
             D
           </span>
 
-          <span className="truncate text-base sm:text-lg">
+          <span className="truncate text-base sm:text-lg text-white">
             {nav.brand}
           </span>
         </a>
