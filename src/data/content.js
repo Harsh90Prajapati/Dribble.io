@@ -148,9 +148,9 @@ export const contact = {
   eyebrow: "Let's talk",
   title: "Let's build something incredible.",
   subtitle: "Tell us where you want to be in 12 months. We'll ship the digital engine to get you there.",
-  email: 'hello@dribbl.ai',
-  phone: '+1 (415) 555 · 0142',
-  locations: 'India',
+  email: 'dribbl.tech@gmail.com',
+  phone: '+91 9707925487',
+  locations: 'India , Remote',
   projectTypes: ['Website', 'Redesign', 'Landing page', 'Branding', 'AI systems'],
   submitLabel: 'Send the brief',
 }
@@ -164,5 +164,5 @@ export const footer = {
     { title: 'Services', links: ['Design', 'Development', 'AI Systems', 'SEO', 'Redesign'] },
     { title: 'Resources', links: ['Case studies', 'Journal', 'Playbook', 'FAQ'] },
   ],
-  copyright: '© 2026 Dribbl.ai — All rights reserved.',
+  copyright: '© 2026 Dribbl.io — All rights reserved.',
 }
