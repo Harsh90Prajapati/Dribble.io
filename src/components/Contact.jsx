@@ -17,7 +17,7 @@ import { contact } from '../data/content'
   Swap this fetch call for EmailJS or a small serverless function calling
   Resend/SendGrid instead — happy to wire that up if you'd rather go that route.
 */
-const TO_EMAIL = 'harshprajapati904433@gmail.com' // ← replace with the inbox you want briefs sent to
+const TO_EMAIL = 'dribbl.tech@gmail.com' // ← replace with the inbox you want briefs sent to
 
 const initialForm = { name: '', email: '', company: '', projectType: '', message: '' }
 
