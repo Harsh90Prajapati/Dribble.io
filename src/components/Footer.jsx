@@ -5,13 +5,12 @@ import { footer } from '../data/content'
 const socials = [
   { name: 'Twitter/X', href: 'https://twitter.com/dribblio', Icon: Twitter },
   { name: 'Instagram', href: 'https://instagram.com/dribblio', Icon: Instagram },
-  { name: 'LinkedIn', href: 'linkedin.com/company/dribbl-io', Icon: Linkedin },
+  { name: 'LinkedIn', href: 'https://linkedin.com/company/dribbl-io', Icon: Linkedin },
   { name: 'Dribbble', href: 'https://dribbble.com/dribblio', Icon: Dribbble },
 ]
 
-// Maps footer link labels to actual destinations.
-// Anchor links (#id) should match section ids used in your Nav component.
-// Swap any of these for real routes (e.g. '/careers') if they're separate pages.
+// These MUST match id="..." attributes on the actual section elements in your page.
+// e.g. <section id="about"> in your About component.
 const linkMap = {
   About: '#about',
   Careers: '/careers',
