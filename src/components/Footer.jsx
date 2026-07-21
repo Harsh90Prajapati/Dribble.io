@@ -1,7 +1,36 @@
 import { useState } from 'react'
+import { Instagram, Linkedin, Dribbble } from 'lucide-react'
 import { footer } from '../data/content'
 
-const socials = ['Twitter/X', 'Instagram', 'LinkedIn', 'Dribbble']
+// Custom X (Twitter) icon — lucide-react removed/renamed this icon in recent versions
+const XIcon = (props) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width={18} height={18} {...props}>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+)
+
+const socials = [
+  { name: 'Twitter/X', href: 'https://twitter.com/dribblio', Icon: XIcon },
+  { name: 'Instagram', href: 'https://instagram.com/dribblio', Icon: Instagram },
+  { name: 'LinkedIn', href: 'https://linkedin.com/company/dribbl-io', Icon: Linkedin },
+  { name: 'Dribbble', href: 'https://dribbble.com/dribblio', Icon: Dribbble },
+]
+
+const linkMap = {
+  About: '#about',
+  Careers: '/careers',
+  Contact: '#contact',
+  Press: '/press',
+  Design: '#services',
+  Development: '#services',
+  'AI Systems': '#services',
+  SEO: '#services',
+  Redesign: '#services',
+  'Case studies': '#work',
+  Journal: '/journal',
+  Playbook: '/playbook',
+  FAQ: '#faq',
+}
 
 export default function Footer() {
   const [email, setEmail] = useState('')
@@ -50,7 +79,10 @@ export default function Footer() {
               <ul className="mt-4 space-y-3">
                 {col.links.map((link) => (
                   <li key={link}>
-                    <a href="#" className="text-sm text-ink-muted hover:text-ink transition-colors">
+                    <a
+                      href={linkMap[link] || '#'}
+                      className="text-sm text-ink-muted hover:text-ink transition-colors"
+                    >
                       {link}
                     </a>
                   </li>
@@ -64,9 +96,16 @@ export default function Footer() {
       <div className="wrap px-6 md:px-10 py-8 border-t border-line flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-xs text-ink-faint">{footer.copyright}</p>
         <div className="flex gap-5">
-          {socials.map((s) => (
-            <a key={s} href="#" aria-label={s} className="text-ink-faint hover:text-ink transition-colors">
-              <span className="block h-2 w-2 rounded-full bg-current" />
+          {socials.map(({ name, href, Icon }) => (
+            <a
+              key={name}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={name}
+              className="text-ink-faint hover:text-ink transition-colors"
+            >
+              <Icon size={18} strokeWidth={1.75} />
             </a>
           ))}
         </div>
