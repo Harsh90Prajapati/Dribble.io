@@ -1,31 +1,7 @@
 import { useState } from 'react'
-import { Twitter, Instagram, Linkedin, Dribbble } from 'lucide-react'
 import { footer } from '../data/content'
 
-const socials = [
-  { name: 'Twitter/X', href: 'https://twitter.com/dribblio', Icon: Twitter },
-  { name: 'Instagram', href: 'https://instagram.com/dribblio', Icon: Instagram },
-  { name: 'LinkedIn', href: 'https://linkedin.com/company/dribbl-io', Icon: Linkedin },
-  { name: 'Dribbble', href: 'https://dribbble.com/dribblio', Icon: Dribbble },
-]
-
-// These MUST match id="..." attributes on the actual section elements in your page.
-// e.g. <section id="about"> in your About component.
-const linkMap = {
-  About: '#about',
-  Careers: '/careers',
-  Contact: '#contact',
-  Press: '/press',
-  Design: '#services',
-  Development: '#services',
-  'AI Systems': '#services',
-  SEO: '#services',
-  Redesign: '#services',
-  'Case studies': '#work',
-  Journal: '/journal',
-  Playbook: '/playbook',
-  FAQ: '#faq',
-}
+const socials = ['Twitter/X', 'Instagram', 'LinkedIn', 'Dribbble']
 
 export default function Footer() {
   const [email, setEmail] = useState('')
@@ -74,10 +50,7 @@ export default function Footer() {
               <ul className="mt-4 space-y-3">
                 {col.links.map((link) => (
                   <li key={link}>
-                    <a
-                      href={linkMap[link] || '#'}
-                      className="text-sm text-ink-muted hover:text-ink transition-colors"
-                    >
+                    <a href="#" className="text-sm text-ink-muted hover:text-ink transition-colors">
                       {link}
                     </a>
                   </li>
@@ -91,16 +64,9 @@ export default function Footer() {
       <div className="wrap px-6 md:px-10 py-8 border-t border-line flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-xs text-ink-faint">{footer.copyright}</p>
         <div className="flex gap-5">
-          {socials.map(({ name, href, Icon }) => (
-            <a
-              key={name}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={name}
-              className="text-ink-faint hover:text-ink transition-colors"
-            >
-              <Icon size={18} strokeWidth={1.75} />
+          {socials.map((s) => (
+            <a key={s} href="#" aria-label={s} className="text-ink-faint hover:text-ink transition-colors">
+              <span className="block h-2 w-2 rounded-full bg-current" />
             </a>
           ))}
         </div>
