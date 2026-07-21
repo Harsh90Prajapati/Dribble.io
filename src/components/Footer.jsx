@@ -38,17 +38,17 @@ const socials = [
 
 const linkMap = {
   About: '#about',
-  Careers: '/careers',
+  Careers: '#careers',
   Contact: '#contact',
-  Press: '/press',
+  Press: '#press',
   Design: '#services',
   Development: '#services',
   'AI Systems': '#services',
   SEO: '#services',
   Redesign: '#services',
   'Case studies': '#work',
-  Journal: '/journal',
-  Playbook: '/playbook',
+  Journal: '#journal',
+  Playbook: '#playbook',
   FAQ: '#faq',
 }
 
