@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import LogosMarquee from './components/LogosMarquee'
 import Services from './components/Services'
-import Work from './components/Work'
+
 import WhyUs from './components/WhyUs'
 import Process from './components/Process'
 import Results from './components/Results'
@@ -18,8 +18,7 @@ export default function App() {
       <main>
         <Hero />
         <LogosMarquee />
-        <Services />
-        <Work />
+        <Services />       
         <WhyUs />
         <Process />
         <Results />
