@@ -48,11 +48,11 @@ export default function Hero() {
               <span aria-hidden="true">&rarr;</span>
             </a>
             
-             <a href="#work"
+             {/* <a href="#work"
               className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-5 sm:px-6 py-2.5 sm:py-3 text-sm font-semibold text-white/85 transition-colors hover:bg-white/[0.08] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/40"
             >
               See selected work
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
