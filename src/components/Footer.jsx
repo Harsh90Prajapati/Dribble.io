@@ -5,7 +5,7 @@ import { footer } from '../data/content'
 const socials = [
   { name: 'Twitter/X', href: 'https://twitter.com/dribblio', Icon: Twitter },
   { name: 'Instagram', href: 'https://instagram.com/dribblio', Icon: Instagram },
-  { name: 'LinkedIn', href: 'https://linkedin.com/company/dribblio', Icon: Linkedin },
+  { name: 'LinkedIn', href: 'linkedin.com/company/dribbl-io', Icon: Linkedin },
   { name: 'Dribbble', href: 'https://dribbble.com/dribblio', Icon: Dribbble },
 ]
 
