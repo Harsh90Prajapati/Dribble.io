@@ -4,7 +4,6 @@ export const nav = {
   brand: 'Dribbl.io',
   links: [
     { label: 'Services', href: '#services' },
-    { label: 'Work', href: '#work' },
     { label: 'Process', href: '#process' },
     { label: 'Results', href: '#results' },
     { label: 'FAQ', href: '#faq' },
